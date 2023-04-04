@@ -8,15 +8,16 @@ function App() {
        <a href = "/">E-COMMERCE-CS308</a>
       </header>
       <main>
-        <h1>featured products</h1>
-        {
-          data.products.map(product => (<div>
+        <h1>Featured Products</h1>
+        <div className = "products">
+          {data.products.map(product => (
+          <div className = "product" key = {product.slug}>
             <img src = {product.image} alt={product.name} />
             <p>{product.name}</p>
             <p> {product.price}</p>
-          </div>))
-        }
-
+          </div>
+          ))}
+        </div>
       </main>
     </div>
   );

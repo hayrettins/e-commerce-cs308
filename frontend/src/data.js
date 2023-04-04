@@ -40,7 +40,7 @@ const data = {
             name: 'Adidas Fit Pants',
             slug: 'adidas-fit-pants',
             category: 'Pants',
-            image: '/images/p4.png',
+            image: '/images/p4.jpeg',
             price: 65,
             countInStock: 5,
             brand: 'Adidas',
